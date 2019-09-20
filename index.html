@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trump News</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/input.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/button.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="navBarBeforeClick">
+        <div class="brand">
+            <img src="assets/images/trump-logo.png" alt="Trump News">
+        </div>
+        <form class="ui mini action input searchForm ">
+            <input type="search" class="searchInput" required>        <button class="ui grey button" type="submit">Search</button>
+        </form>
+    </div>
+    <header class="loadpage">
+        <div class="loadpageHeader">
+            <h1 class="animated zoomIn">Trump News</h1>
+
+            <h2 class="animated zoomIn delay-1s">Pick Your Reality</h3>
+            <div class="ui huge buttons buttonsContainer animated zoomIn delay-2s">
+                <div class="ui button blue leftButton">
+                    Left
+                </div>
+                <div class="or"></div>
+                <div class="ui huge button red rightButton">
+                    Right
+                </div>
+            </div>
+        </div>
+        <div class="demDonkeyContainer animated slideInLeft delay-2s">
+            <img class="demDonkey" src="assets/images/demDonkey.png" alt="">
+        </div>
+        <div class="gopElephantContainer animated slideInRight delay-2s">
+            <img class="gopElephant" src="assets/images/gopElephant.png" alt="">
+        </div>
+    </header>
+    <div class="containerBeforeClick">
+        <section class="twitterSection">
+            <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/realDonaldTrump?ref_src=twsrc%5Etfw" data-height="600">Tweets by realDonaldTrump</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+        </section>
+        <section class="spotify">
+
+        </section>
+        <section class="truthMeter">
+            <script src="https://www.politifact.com/media/js/politifactwidget3.js"></script>
+        </section>
+        <article class="content">
+
+        </article>
+        <div class="pageFlipper ui buttons">
+            <div class="btnPrev ui leftattached button">Prev</div>
+            <div class="btnNext ui rightattached button">Next</div>
+        </div>
+
+    </div>
+    <footer class="footerBeforeClick">
+        <div>
+            <p class="footerText">Created by Andrew Duda</p>
+        </div>
+        <div>
+            <p class="footerText">Powered by <a href="https://newsapi.org/">NewsAPI.org</a></p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script2.js"></script>
+
+
+</body>
+</html>
