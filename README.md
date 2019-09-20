@@ -20,10 +20,6 @@ You will need to clone this project to your local machine. Along with running it
 
 * **Andrew Duda** 
 
-## License
-
-This project is licensed under the MIT License
-
 ## Acknowledgments
 
 * Thanks to my dad for inspiring me to make this site. His obsession with news and Trump inspired me to make a site just for Trump News.
